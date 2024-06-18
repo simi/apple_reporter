@@ -4,7 +4,6 @@ require 'apple_reporter'
 require 'rspec'
 require 'active_support/all'
 require 'webmock/rspec'
-require 'byebug'
 
 Dir[File.expand_path("../support/**/*.rb", __FILE__)].each { |f| require f }
 
